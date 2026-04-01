@@ -4,7 +4,40 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>i-Setelcom Network | Powering Global Enterprise. Pioneering Digital Careers.</title>
-  <meta name="description" content="i-Setelcom Network delivers Virtual Assistant training, workforce development, and career-building programs for global-ready digital professionals." />
+  <meta name="description" content="i-Setelcom Network provides ready-trained Virtual Assistants, remote assistant services, VA training, and business support solutions including project management, executive assistance, social media management, bookkeeping, cold calling, and creatives." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="keywords" content="Virtual Assistant Philippines, remote assistant, project management support, executive assistant, social media management, bookkeeping, cold calling, creatives, ready-trained VAs, Dasmariñas Cavite" />
+  <link rel="icon" type="image/png" href="ChatGPT Image Mar 31, 2026, 10_27_23 AM.png" />
+  <link rel="apple-touch-icon" href="ChatGPT Image Mar 31, 2026, 10_27_23 AM.png" />
+  <link rel="canonical" href="https://example.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="i-Setelcom Network | Powering Global Enterprise. Pioneering Digital Careers." />
+  <meta property="og:description" content="Ready-trained Virtual Assistants, remote assistant services, and digital workforce solutions for growing businesses." />
+  <meta property="og:image" content="ChatGPT Image Mar 31, 2026, 12_45_33 PM.png" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="i-Setelcom Network | Powering Global Enterprise. Pioneering Digital Careers." />
+  <meta name="twitter:description" content="Ready-trained Virtual Assistants, remote assistant services, and digital workforce solutions for growing businesses." />
+  <meta name="twitter:image" content="ChatGPT Image Mar 31, 2026, 12_45_33 PM.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "i-Setelcom Network",
+    "description": "Ready-trained Virtual Assistants, remote assistant services, VA training, and digital workforce solutions.",
+    "areaServed": "Global",
+    "telephone": "09977687651",
+    "email": "isetelcom.va@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "188 Tester Avenue, Salawag",
+      "addressLocality": "Dasmariñas",
+      "addressRegion": "Cavite",
+      "addressCountry": "PH"
+    },
+    "sameAs": ["https://www.facebook.com/isetelcom/"]
+  }
+  </script>
   <style>
     :root{
       --bg:#f7fafc; --bg-soft:#eff5fb; --surface:#ffffff; --surface-alt:#f4f8fc;
@@ -24,104 +57,109 @@
     button,input,select,textarea{font:inherit}
     .container{width:min(var(--max), calc(100% - 32px)); margin-inline:auto}
     .nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(15,39,66,.06)}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:10px 0}
-    .brand img{height:56px;width:auto;max-width:380px;object-fit:contain;display:block}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:8px 0}
+    .brand img{height:48px;width:auto;max-width:380px;object-fit:contain;display:block}
     .nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);padding:8px;border-radius:24px;max-width:840px}
-    .nav-links a{padding:10px 14px;border-radius:999px;font-size:13px;font-weight:800;color:var(--muted);letter-spacing:.02em;transition:.2s ease}
+    .nav-links a{padding:8px 12px;border-radius:999px;font-size:12px;font-weight:800;color:var(--muted);letter-spacing:.02em;transition:.2s ease}
     .nav-links a:hover,.nav-links a.active{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;box-shadow:0 10px 22px rgba(26,103,255,.22)}
-    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 22px;border-radius:16px;font-weight:800;transition:.2s ease transform,.2s ease box-shadow,.2s ease background;border:1px solid transparent;cursor:pointer;white-space:nowrap}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 18px;border-radius:14px;font-weight:800;transition:.2s ease transform,.2s ease box-shadow,.2s ease background;border:1px solid transparent;cursor:pointer;white-space:nowrap}
     .btn:hover{transform:translateY(-2px)}
     .btn-primary{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;box-shadow:0 14px 30px rgba(26,103,255,.2)}
     .btn-secondary{background:#fff;color:var(--text);border-color:var(--line);box-shadow:var(--shadow)}
     .btn-messenger{background:linear-gradient(135deg,#00b2ff,#006aff);color:#fff;box-shadow:0 14px 30px rgba(0,106,255,.2)}
     .btn-share{background:#eef4ff;color:var(--blue-dark);border-color:#d5e2ff}
     .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
-    .hero{padding:42px 0 34px}
+    .hero{padding:28px 0 20px}
     .hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:32px;align-items:center}
     .eyebrow{display:inline-flex;align-items:center;padding:9px 14px;border-radius:999px;background:#edf4ff;border:1px solid #d7e6ff;color:var(--blue-dark);text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:900}
-    h1{margin:18px 0 14px;font-size:clamp(40px,5.4vw,70px);line-height:1.02;letter-spacing:-.04em}
-    .tagline{font-size:clamp(21px,2vw,29px);line-height:1.15;color:var(--red);font-weight:900;max-width:760px}
-    .lead{margin-top:18px;font-size:clamp(17px,2vw,20px);color:var(--muted);max-width:760px}
-    .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+    h1{margin:18px 0 14px;font-size:clamp(32px,4.2vw,52px);line-height:1.02;letter-spacing:-.04em}
+    .tagline{font-size:clamp(18px,1.8vw,22px);line-height:1.15;color:var(--red);font-weight:900;max-width:760px}
+    .lead{margin-top:18px;font-size:clamp(15px,1.6vw,18px);color:var(--muted);max-width:760px}
+    .cta-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
     .hero-panel{padding:18px}
-    .hero-panel img{border-radius:20px;width:100%;height:100%;object-fit:cover;min-height:420px}
-    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
-    .stat{padding:20px}
-    .stat strong{display:block;font-size:28px;line-height:1.05}
+    .hero-panel img{border-radius:20px;width:100%;height:100%;object-fit:cover;min-height:340px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+    .stat{padding:16px}
+    .stat strong{display:block;font-size:22px;line-height:1.05}
     .stat span{display:block;margin-top:7px;font-size:14px;color:var(--muted)}
-    .section{padding:76px 0}
+    .section{padding:52px 0}
     .section.band{background:linear-gradient(180deg,#ffffff 0%,var(--surface-alt) 100%);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-    .section-title{max-width:820px;margin-bottom:28px}
+    .section-title{max-width:760px;margin-bottom:18px}
     .section-kicker{color:var(--blue);text-transform:uppercase;letter-spacing:.22em;font-size:12px;font-weight:900;margin-bottom:10px}
-    .section h2{margin:0 0 12px;font-size:clamp(32px,4vw,50px);line-height:1.08;letter-spacing:-.03em}
-    .section .top{margin:0;color:var(--muted);font-size:18px}
+    .section h2{margin:0 0 12px;font-size:clamp(26px,3vw,36px);line-height:1.08;letter-spacing:-.03em}
+    .section .top{margin:0;color:var(--muted);font-size:16px}
     .grid-4{display:grid;gap:18px;grid-template-columns:repeat(4,1fr)}
     .grid-2{display:grid;gap:22px;grid-template-columns:repeat(2,1fr)}
     .showcase-grid{display:grid;gap:16px;grid-template-columns:repeat(3,1fr)}
     .client-grid-4{display:grid;gap:16px;grid-template-columns:repeat(3,1fr)}
-    .click-card{width:100%;text-align:left;padding:22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);cursor:pointer;transition:.2s ease transform,.2s ease box-shadow,.2s ease border-color}
+    .click-card{width:100%;text-align:left;padding:18px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);cursor:pointer;transition:.2s ease transform,.2s ease box-shadow,.2s ease border-color}
     .click-card:hover,.compact-card:hover{transform:translateY(-3px);border-color:#b7cff6;box-shadow:0 24px 56px rgba(20,45,78,.11)}
     .click-card .icon{width:58px;height:58px;display:grid;place-items:center;border-radius:18px;background:linear-gradient(135deg,#eef4ff,#fff0f1);border:1px solid #dce7f5;font-size:26px;margin-bottom:14px}
-    .click-card h3{margin:0;font-size:18px;display:flex;align-items:center;justify-content:space-between;gap:10px}
-    .click-card h3 span:last-child,.compact-card strong span:last-child{color:var(--blue);font-size:18px}
+    .click-card h3{margin:0;font-size:16px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .click-card h3 span:last-child,.compact-card strong span:last-child{color:var(--blue);font-size:16px}
     .showcase-card{overflow:hidden}
     .showcase-card img{width:100%;height:240px;object-fit:cover;border-top-left-radius:24px;border-top-right-radius:24px}
-    .showcase-card .copy{padding:20px}
+    .showcase-card .copy{padding:16px}
     .showcase-card h3{margin:0 0 8px;font-size:22px}
     .showcase-card p{margin:0;color:var(--muted)}
     .activity-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:24px;align-items:start}
     .activity-points,.steps{display:grid;gap:14px;margin-top:22px}
-    .compact-card{width:100%;text-align:left;padding:18px 20px;display:flex;gap:14px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);cursor:pointer;transition:.2s ease transform,.2s ease box-shadow,.2s ease border-color}
+    .compact-card{width:100%;text-align:left;padding:14px 16px;display:flex;gap:14px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);cursor:pointer;transition:.2s ease transform,.2s ease box-shadow,.2s ease border-color}
     .num{width:42px;height:42px;border-radius:14px;flex:0 0 42px;display:grid;place-items:center;font-weight:900;color:#fff;background:linear-gradient(135deg,var(--blue),var(--blue-dark))}
-    .compact-card strong{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;font-size:17px}
-    .activity-gallery{display:grid;gap:14px;grid-template-columns:repeat(12,1fr);grid-auto-rows:150px}
+    .compact-card strong{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;font-size:15px}
+    .activity-gallery{display:grid;gap:14px;grid-template-columns:repeat(12,1fr);grid-auto-rows:130px}
     .tile{position:relative;overflow:hidden;border-radius:22px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
     .tile img,.tile video{width:100%;height:100%;object-fit:cover}
     .tile.w4{grid-column:span 4}.tile.w6{grid-column:span 6}.tile.w8{grid-column:span 8}.tile.w12{grid-column:span 12}
     .tile.medium{grid-row:span 2}.tile.tall{grid-row:span 3}
     .tile .label{position:absolute;left:12px;bottom:12px;padding:8px 11px;border-radius:12px;background:rgba(15,39,66,.78);color:#fff;font-size:12px;font-weight:800;letter-spacing:.03em}
     .contact-wrap{display:grid;gap:22px;grid-template-columns:1fr 1fr}
-    .contact-card{padding:26px}
+    .contact-card{padding:22px}
     .contact-list{display:grid;gap:14px;margin-top:16px}
-    .contact-item{background:#f9fbff;border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+    .contact-item{background:#f9fbff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
     .contact-item .k{color:var(--blue);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.16em}
-    .contact-item .v{margin-top:6px;font-size:20px;font-weight:800}
+    .contact-item .v{margin-top:6px;font-size:16px;font-weight:800}
     .contact-item input,.contact-item select,.contact-item textarea{width:100%;border:none;outline:none;background:transparent;color:var(--text);font:inherit;resize:vertical}
     .social-wrap{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
-    .map-frame{width:100%;min-height:420px;border:0;border-radius:20px;box-shadow:var(--shadow)}
-    .footer{margin-top:16px;padding:34px 0 42px;border-top:1px solid var(--line);background:#fff;color:var(--muted)}
+    .form-status{display:none;padding:12px 14px;border-radius:14px;font-size:14px;font-weight:700}
+    .form-status.show{display:block}
+    .form-status.success{background:#eaf8ef;color:#17653b;border:1px solid #bfe6ca}
+    .form-status.error{background:#fff0f0;color:#b42318;border:1px solid #f3c1c1}
+    .field-note{font-size:12px;color:var(--muted);margin-top:8px}
+    .map-frame{width:100%;min-height:340px;border:0;border-radius:20px;box-shadow:var(--shadow)}
+    .footer{margin-top:16px;padding:24px 0 28px;border-top:1px solid var(--line);background:#fff;color:var(--muted)}
     .footer-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
-    .footer-tag{font-size:20px;font-weight:900;color:var(--red);letter-spacing:-.02em}
+    .footer-tag{font-size:16px;font-weight:900;color:var(--red);letter-spacing:-.02em}
     .floating-messenger{position:fixed;right:20px;bottom:20px;z-index:60;width:62px;height:62px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#00b2ff,#006aff);color:#fff;font-size:29px;box-shadow:0 18px 38px rgba(0,106,255,.28)}
     .modal{position:fixed;inset:0;z-index:120;display:none;align-items:center;justify-content:center;background:rgba(8,18,36,.52);padding:18px}
     .modal.open{display:flex}
     .modal-panel{width:min(680px,100%);background:#fff;border:1px solid var(--line);border-radius:28px;box-shadow:0 30px 80px rgba(9,28,59,.22);overflow:hidden}
-    .modal-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%)}
+    .modal-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 22px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%)}
     .modal-title{margin:0;font-size:26px;line-height:1.1;color:var(--navy)}
     .modal-close{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:22px;color:var(--navy)}
-    .modal-body{padding:22px;color:var(--muted);font-size:17px}
+    .modal-body{padding:18px;color:var(--muted);font-size:15px}
 
     .testimonial-slider{position:relative;overflow:hidden}
     .testimonial-track{display:flex;transition:transform .45s ease}
     .testimonial-slide{min-width:100%;padding:8px}
-    .testimonial-card{padding:28px 26px}
-    .testimonial-head{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+    .testimonial-card{padding:20px 20px}
+    .testimonial-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
     .portrait-frame{
-      width:170px;height:230px;border-radius:999px;
+      width:140px;height:190px;border-radius:999px;
       padding:8px;background:linear-gradient(180deg,#e8eef6,#cfd9e8);
-      box-shadow:var(--shadow);flex:0 0 170px;overflow:hidden
+      box-shadow:var(--shadow);flex:0 0 140px;overflow:hidden
     }
     .portrait-frame img{
       width:100%;height:100%;object-fit:cover;object-position:center center;
       border-radius:999px;border:4px solid #fff
     }
-    .testimonial-meta h3{margin:0 0 6px;font-size:28px;color:var(--navy)}
+    .testimonial-meta h3{margin:0 0 6px;font-size:22px;color:var(--navy)}
     .testimonial-meta .role{color:var(--blue);font-weight:800;font-size:15px}
-    .quote-mark{font-size:54px;line-height:1;color:var(--blue);opacity:.25;margin-top:18px}
-    .testimonial-quote{font-size:20px;line-height:1.7;color:var(--muted);margin:10px 0 0;max-width:860px}
-    .slider-controls{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:20px}
+    .quote-mark{font-size:38px;line-height:1;color:var(--blue);opacity:.25;margin-top:18px}
+    .testimonial-quote{font-size:16px;line-height:1.7;color:var(--muted);margin:10px 0 0;max-width:860px}
+    .slider-controls{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:14px}
     .slider-btn{
-      width:46px;height:46px;border-radius:50%;border:1px solid var(--line);
+      width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
       background:#fff;color:var(--navy);cursor:pointer;box-shadow:var(--shadow);font-size:22px
     }
     .slider-dots{display:flex;gap:8px}
@@ -137,7 +175,7 @@
     @media (max-width:780px){
       .nav-links{display:none}.brand img{height:48px;max-width:72vw}
       .hero-grid,.activity-layout,.contact-wrap,.grid-4,.grid-2,.stats,.showcase-grid,.client-grid-4{grid-template-columns:1fr}
-      .activity-gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+      .activity-gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:130px}
       .tile.w4,.tile.w6,.tile.w8,.tile.w12{grid-column:span 2}
       .tile.medium,.tile.tall{grid-row:span 2}
       .section{padding:58px 0}.hero-panel img{min-height:300px}
@@ -282,7 +320,7 @@
           <div class="tile w8 tall"><img src="ChatGPT Image Mar 31, 2026, 12_45_33 PM.png" alt="Trainees working in professional office"><div class="label">Modern digital workplace</div></div>
           <div class="tile w4 medium"><img src="ChatGPT Image Mar 31, 2026, 12_40_54 PM.png" alt="Trainee smiling at laptop"><div class="label">Positive learner experience</div></div>
           <div class="tile w12 medium"><img src="Web 4.png" alt="Training and operations collage"><div class="label">Training and operations showcase</div></div>
-          <div class="tile w12 medium"><video controls preload="metadata" poster="571341101_1278655104295963_6845732097551515876_n.jpg"><source src="VA Vid.mp4" type="video/mp4">Your browser does not support the video tag.</video><div class="label">Training video</div></div>
+          
         </div>
       </div>
     </section>
@@ -299,18 +337,22 @@
           </div>
         </div>
         <div class="card contact-card">
-          <form action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you for your inquiry. i-Setelcom will contact you soon.');">
+          <form id="inquiryForm" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New VA Service Inquiry from i-Setelcom Website">
+            <input type="hidden" name="_captcha" value="false">
             <div class="contact-list">
-              <div class="contact-item"><div class="k">Full Name</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="text" name="name" placeholder="Enter your full name"></div></div>
-              <div class="contact-item"><div class="k">Company / Business</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="text" name="company" placeholder="Enter company or business name"></div></div>
-              <div class="contact-item"><div class="k">Email Address</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="email" name="email" placeholder="Enter your email"></div></div>
+              <div class="contact-item"><div class="k">Full Name</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="text" name="name" placeholder="Enter your full name" autocomplete="name" required></div></div>
+              <div class="contact-item"><div class="k">Company / Business</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="text" name="company" placeholder="Enter company or business name" autocomplete="organization" required></div></div>
+              <div class="contact-item"><div class="k">Email Address</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="email" name="email" placeholder="Enter your email" autocomplete="email" required></div></div>
               <div class="contact-item"><div class="k">Service Needed</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><select name="service"><option>Project Management</option><option>Executive Assistant</option><option>Social Media Management</option><option>Bookkeeping</option><option>Cold Calling</option><option>Creatives</option></select></div></div>
-              <div class="contact-item"><div class="k">Job Details</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><textarea name="details" rows="4" placeholder="Describe the role, schedule, and support you need"></textarea></div></div>
+              <div class="contact-item"><div class="k">Job Details</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><textarea name="details" rows="4" placeholder="Describe the role, schedule, and support you need" required></textarea></div></div>
             </div>
             <div class="social-wrap" style="margin-top:18px">
-              <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+              <button class="btn btn-primary" type="submit" id="submitInquiryBtn">Submit Inquiry</button>
               <a class="btn btn-messenger" href="https://m.me/isetelcom" target="_blank" rel="noopener">Message via Messenger</a>
             </div>
+            <div class="field-note">Formspree-ready form. Replace <strong>REPLACE_WITH_YOUR_FORM_ID</strong> with your live Formspree form ID before deployment.</div>
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
           </form>
         </div>
       </div>
@@ -322,6 +364,10 @@
           <div class="section-kicker">Client Showcase</div>
           <h2>Trusted by past and current clients</h2>
           <p class="top">A few of the professionals and business leaders i‑Setelcom has supported through campaign work, remote business development, and executive assistant services.</p>
+        <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 0;">
+          <span style="font-weight:800;color:var(--text);margin-right:4px;">Campaigns since May 2016:</span>
+          <span>ERC - Tax Refund</span><span>•</span><span>Back Brace</span><span>•</span><span>Home Improvement</span><span>•</span><span>HVAC</span><span>•</span><span>Insurance</span><span>•</span><span>Credit Score Repair</span><span>•</span><span>Mapidea</span>
+        </div>
         </div>
 
         <div class="testimonial-slider" id="testimonialSlider">
@@ -366,7 +412,7 @@
                   </div>
                   <div class="testimonial-meta">
                     <h3>Michael Hildreth</h3>
-                    <div class="role">Behavioral Counselor and Faith-based Marriage Counselor • Abilene, Texas</div>
+                    <div class="role">Behavioral Counselor and clinical-based counseling focusing on marriage • Abilene, Texas</div>
                   </div>
                 </div>
                 <div class="quote-mark">“</div>
@@ -452,6 +498,54 @@
         link.classList.add('active');
       });
     });
+
+
+    const inquiryForm = document.getElementById('inquiryForm');
+    const formStatus = document.getElementById('formStatus');
+    const submitInquiryBtn = document.getElementById('submitInquiryBtn');
+
+    function showFormStatus(message, type) {
+      formStatus.textContent = message;
+      formStatus.className = `form-status show ${type}`;
+    }
+
+    if (inquiryForm) {
+      inquiryForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const endpoint = inquiryForm.getAttribute('action');
+        if (!endpoint || endpoint.includes('REPLACE_WITH_YOUR_FORM_ID')) {
+          showFormStatus('Form is prepared for Formspree, but the live Form ID has not been added yet. Replace REPLACE_WITH_YOUR_FORM_ID before publishing.', 'error');
+          return;
+        }
+
+        submitInquiryBtn.disabled = true;
+        submitInquiryBtn.textContent = 'Sending...';
+        formStatus.className = 'form-status';
+
+        try {
+          const response = await fetch(endpoint, {
+            method: 'POST',
+            body: new FormData(inquiryForm),
+            headers: { 'Accept': 'application/json' }
+          });
+
+          if (response.ok) {
+            inquiryForm.reset();
+            showFormStatus('Thank you. Your inquiry has been sent successfully. i-Setelcom will get back to you soon.', 'success');
+          } else {
+            let data = {};
+            try { data = await response.json(); } catch {}
+            const message = data?.errors?.map(err => err.message).join(' ') || 'Sorry, something went wrong while sending your inquiry. Please try again or use Messenger instead.';
+            showFormStatus(message, 'error');
+          }
+        } catch (error) {
+          showFormStatus('Unable to send right now. Please check your connection or contact i-Setelcom through Messenger.', 'error');
+        } finally {
+          submitInquiryBtn.disabled = false;
+          submitInquiryBtn.textContent = 'Submit Inquiry';
+        }
+      });
+    }
 
     const modal = document.getElementById('detailModal');
     const modalTitle = document.getElementById('modalTitle');
