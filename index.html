@@ -121,10 +121,6 @@
     .contact-item .v{margin-top:6px;font-size:16px;font-weight:800}
     .contact-item input,.contact-item select,.contact-item textarea{width:100%;border:none;outline:none;background:transparent;color:var(--text);font:inherit;resize:vertical}
     .social-wrap{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
-    .form-status{display:none;padding:12px 14px;border-radius:14px;font-size:14px;font-weight:700}
-    .form-status.show{display:block}
-    .form-status.success{background:#eaf8ef;color:#17653b;border:1px solid #bfe6ca}
-    .form-status.error{background:#fff0f0;color:#b42318;border:1px solid #f3c1c1}
     .field-note{font-size:12px;color:var(--muted);margin-top:8px}
     .map-frame{width:100%;min-height:340px;border:0;border-radius:20px;box-shadow:var(--shadow)}
     .footer{margin-top:16px;padding:24px 0 28px;border-top:1px solid var(--line);background:#fff;color:var(--muted)}
@@ -173,6 +169,8 @@
       .showcase-grid,.client-grid-4{grid-template-columns:1fr 1fr}
     }
     @media (max-width:780px){
+      iframe[title="i-Setelcom Inquiry Form"]{height:1120px}
+
       .nav-links{display:none}.brand img{height:48px;max-width:72vw}
       .hero-grid,.activity-layout,.contact-wrap,.grid-4,.grid-2,.stats,.showcase-grid,.client-grid-4{grid-template-columns:1fr}
       .activity-gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:130px}
@@ -331,30 +329,35 @@
           <div class="section-kicker">Service Inquiry</div>
           <h2>Tell us what kind of VA support you need</h2>
           <p class="top">Potential clients can request trained Virtual Assistant or remote assistant support directly from the landing page through this service inquiry form.</p>
-          <p class="top" style="font-size:14px;margin-top:8px">Formspree is now connected. To enable automatic reply emails, turn on Auto Response inside your Formspree dashboard for form <strong>mykbdywz</strong>.</p>
+          <p class="top" style="font-size:14px;margin-top:8px">Use the embedded inquiry form below to send your request directly. Your entries are saved through Google Forms and Google Sheets.</p>
           <div class="steps">
             <button class="compact-card modal-trigger" data-title="Fast Client Intake" data-content="This form is designed to capture the client’s name, company, service niche, preferred start date, and job details so i‑Setelcom can respond quickly with the right trained VA support."><div class="num">1</div><strong><span>Fast client intake</span><span>+</span></strong></button>
             <button class="compact-card modal-trigger" data-title="Service Matching" data-content="Each inquiry can be matched to the most appropriate trained VA profile based on role, niche, communication needs, schedule, and work type."><div class="num">2</div><strong><span>Service matching</span><span>+</span></strong></button>
           </div>
         </div>
         <div class="card contact-card">
-          <form id="inquiryForm" action="https://formspree.io/f/mykbdywz" method="POST" novalidate>
-            <input type="hidden" name="_subject" value="New VA Service Inquiry from i-Setelcom Website">
-            <input type="hidden" name="_captcha" value="false">
-            <div class="contact-list">
-              <div class="contact-item"><div class="k">Full Name</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="text" name="name" placeholder="Enter your full name" autocomplete="name" required></div></div>
-              <div class="contact-item"><div class="k">Company / Business</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="text" name="company" placeholder="Enter company or business name" autocomplete="organization" required></div></div>
-              <div class="contact-item"><div class="k">Email Address</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="email" name="email" placeholder="Enter your email" autocomplete="email" required></div></div>
-              <div class="contact-item"><div class="k">Service Needed</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><select name="service"><option>Project Management</option><option>Executive Assistant</option><option>Social Media Management</option><option>Bookkeeping</option><option>Cold Calling</option><option>Creatives</option></select></div></div>
-              <div class="contact-item"><div class="k">Job Details</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><textarea name="details" rows="4" placeholder="Describe the role, schedule, and support you need" required></textarea></div></div>
-            </div>
-            <div class="social-wrap" style="margin-top:18px">
-              <button class="btn btn-primary" type="submit" id="submitInquiryBtn">Submit Inquiry</button>
-              <a class="btn btn-messenger" href="https://m.me/isetelcom" target="_blank" rel="noopener">Message via Messenger</a>
-            </div>
-            <div class="field-note">Your inquiry goes directly to i-Setelcom through the live Formspree inbox and email notification flow.</div>
-            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
-          </form>
+          
+<form style="margin-top:14px" onsubmit="return false;">
+  <div class="field-note">Submit your inquiry through the embedded Google Form below. All responses go directly to your connected Google Sheet.</div>
+  <div style="margin-top:16px;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow);">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSfl5NTwkLeCOOBaAdQMt5IJOFq9yF8wIDLH5KAxWQd02e7teQ/viewform?embedded=true"
+      width="100%"
+      height="1014"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      style="border:none;display:block;background:#fff;"
+      title="i-Setelcom Inquiry Form"
+      loading="lazy">
+      Loading…
+    </iframe>
+  </div>
+  <div class="social-wrap" style="margin-top:16px">
+    <a class="btn btn-messenger" href="https://m.me/isetelcom" target="_blank" rel="noopener">Message via Messenger</a>
+  </div>
+</form>
+
         </div>
       </div>
     </section>
@@ -499,25 +502,6 @@
         link.classList.add('active');
       });
     });
-
-
-    const inquiryForm = document.getElementById('inquiryForm');
-    const formStatus = document.getElementById('formStatus');
-    const submitInquiryBtn = document.getElementById('submitInquiryBtn');
-
-    function showFormStatus(message, type) {
-      formStatus.textContent = message;
-      formStatus.className = `form-status show ${type}`;
-    }
-
-    if (inquiryForm) {
-      inquiryForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const endpoint = inquiryForm.getAttribute('action');
-        if (!endpoint) {
-          showFormStatus('Form endpoint is missing. Please check the form configuration.', 'error');
-          return;
-        }
 
         submitInquiryBtn.disabled = true;
         submitInquiryBtn.textContent = 'Sending...';
