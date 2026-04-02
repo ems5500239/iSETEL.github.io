@@ -510,16 +510,12 @@
       formStatus.className = `form-status show ${type}`;
     }
 
-   <form id="inquiryForm" action="https://formspree.io/f/mykbdywz" method="POST" className="mt-6 space-y-4">
-  <input type="hidden" name="_subject" value="New i-Setelcom Inquiry" />
-  <input type="hidden" name="_captcha" value="false" />
-
-  <input type="text" name="name" placeholder="Full Name" required />
-  <input type="email" name="email" placeholder="Email Address" required />
-  <textarea name="message" placeholder="Your Inquiry" required></textarea>
-
-  <button type="submit">Submit Inquiry</button>
-</form>
+    if (inquiryForm) {
+      inquiryForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const endpoint = inquiryForm.getAttribute('action');
+        if (!endpoint) {
+          showFormStatus('Form endpoint is missing. Please check the form configuration.', 'error');
           return;
         }
 
