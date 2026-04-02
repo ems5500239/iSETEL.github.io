@@ -510,12 +510,16 @@
       formStatus.className = `form-status show ${type}`;
     }
 
-    if (inquiryForm) {
-      inquiryForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const endpoint = inquiryForm.getAttribute('action');
-        if (!endpoint || endpoint.includes('REPLACE_WITH_YOUR_FORM_ID')) {
-          showFormStatus('Form is prepared for Formspree, but the live Form ID has not been added yet. Replace REPLACE_WITH_YOUR_FORM_ID before publishing.', 'error');
+   <form id="inquiryForm" action="https://formspree.io/f/mykbdywz" method="POST" className="mt-6 space-y-4">
+  <input type="hidden" name="_subject" value="New i-Setelcom Inquiry" />
+  <input type="hidden" name="_captcha" value="false" />
+
+  <input type="text" name="name" placeholder="Full Name" required />
+  <input type="email" name="email" placeholder="Email Address" required />
+  <textarea name="message" placeholder="Your Inquiry" required></textarea>
+
+  <button type="submit">Submit Inquiry</button>
+</form>
           return;
         }
 
