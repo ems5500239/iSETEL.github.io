@@ -513,7 +513,10 @@
     if (inquiryForm) {
       inquiryForm.addEventListener('submit', async (e) => {
         e.preventDefault();
-        const endpoint = [inquiryForm.getAttribute](https://formspree.io/f/mykbdywz)('action');      
+        const endpoint = inquiryForm.getAttribute('action');
+        if (!endpoint || endpoint.includes('REPLACE_WITH_YOUR_FORM_ID')) {
+          showFormStatus('Form is prepared for Formspree, but the live Form ID has not been added yet. Replace REPLACE_WITH_YOUR_FORM_ID before publishing.', 'error');
+          return;
         }
 
         submitInquiryBtn.disabled = true;
