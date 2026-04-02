@@ -9,12 +9,12 @@
   <meta name="keywords" content="Virtual Assistant Philippines, remote assistant, project management support, executive assistant, social media management, bookkeeping, cold calling, creatives, ready-trained VAs, Dasmariñas Cavite" />
   <link rel="icon" type="image/png" href="ChatGPT Image Mar 31, 2026, 10_27_23 AM.png" />
   <link rel="apple-touch-icon" href="ChatGPT Image Mar 31, 2026, 10_27_23 AM.png" />
-  <link rel="canonical" href="https://example.com/" />
+  <link rel="canonical" href="https://YOUR-GITHUB-PAGES-URL/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="i-Setelcom Network | Powering Global Enterprise. Pioneering Digital Careers." />
   <meta property="og:description" content="Ready-trained Virtual Assistants, remote assistant services, and digital workforce solutions for growing businesses." />
   <meta property="og:image" content="ChatGPT Image Mar 31, 2026, 12_45_33 PM.png" />
-  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:url" content="https://YOUR-GITHUB-PAGES-URL/" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="i-Setelcom Network | Powering Global Enterprise. Pioneering Digital Careers." />
   <meta name="twitter:description" content="Ready-trained Virtual Assistants, remote assistant services, and digital workforce solutions for growing businesses." />
@@ -331,13 +331,14 @@
           <div class="section-kicker">Service Inquiry</div>
           <h2>Tell us what kind of VA support you need</h2>
           <p class="top">Potential clients can request trained Virtual Assistant or remote assistant support directly from the landing page through this service inquiry form.</p>
+          <p class="top" style="font-size:14px;margin-top:8px">Formspree is now connected. To enable automatic reply emails, turn on Auto Response inside your Formspree dashboard for form <strong>mykbdywz</strong>.</p>
           <div class="steps">
             <button class="compact-card modal-trigger" data-title="Fast Client Intake" data-content="This form is designed to capture the client’s name, company, service niche, preferred start date, and job details so i‑Setelcom can respond quickly with the right trained VA support."><div class="num">1</div><strong><span>Fast client intake</span><span>+</span></strong></button>
             <button class="compact-card modal-trigger" data-title="Service Matching" data-content="Each inquiry can be matched to the most appropriate trained VA profile based on role, niche, communication needs, schedule, and work type."><div class="num">2</div><strong><span>Service matching</span><span>+</span></strong></button>
           </div>
         </div>
         <div class="card contact-card">
-          <form id="inquiryForm" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST" novalidate>
+          <form id="inquiryForm" action="https://formspree.io/f/mykbdywz" method="POST" novalidate>
             <input type="hidden" name="_subject" value="New VA Service Inquiry from i-Setelcom Website">
             <input type="hidden" name="_captcha" value="false">
             <div class="contact-list">
@@ -351,7 +352,7 @@
               <button class="btn btn-primary" type="submit" id="submitInquiryBtn">Submit Inquiry</button>
               <a class="btn btn-messenger" href="https://m.me/isetelcom" target="_blank" rel="noopener">Message via Messenger</a>
             </div>
-            <div class="field-note">Formspree-ready form. Replace <strong>REPLACE_WITH_YOUR_FORM_ID</strong> with your live Formspree form ID before deployment.</div>
+            <div class="field-note">Your inquiry goes directly to i-Setelcom through the live Formspree inbox and email notification flow.</div>
             <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
           </form>
         </div>
