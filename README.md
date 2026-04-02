@@ -338,22 +338,18 @@
           </div>
         </div>
         <div class="card contact-card">
-          <form id="inquiryForm" action="https://formspree.io/f/mykbdywz" method="POST" novalidate>
-            <input type="hidden" name="_subject" value="New VA Service Inquiry from i-Setelcom Website">
-            <input type="hidden" name="_captcha" value="false">
-            <div class="contact-list">
-              <div class="contact-item"><div class="k">Full Name</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="text" name="name" placeholder="Enter your full name" autocomplete="name" required></div></div>
-              <div class="contact-item"><div class="k">Company / Business</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="text" name="company" placeholder="Enter company or business name" autocomplete="organization" required></div></div>
-              <div class="contact-item"><div class="k">Email Address</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><input type="email" name="email" placeholder="Enter your email" autocomplete="email" required></div></div>
-              <div class="contact-item"><div class="k">Service Needed</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><select name="service"><option>Project Management</option><option>Executive Assistant</option><option>Social Media Management</option><option>Bookkeeping</option><option>Cold Calling</option><option>Creatives</option></select></div></div>
-              <div class="contact-item"><div class="k">Job Details</div><div class="v" style="font-size:16px;font-weight:600;margin-top:10px"><textarea name="details" rows="4" placeholder="Describe the role, schedule, and support you need" required></textarea></div></div>
-            </div>
-            <div class="social-wrap" style="margin-top:18px">
-              <button class="btn btn-primary" type="submit" id="submitInquiryBtn">Submit Inquiry</button>
-              <a class="btn btn-messenger" href="https://m.me/isetelcom" target="_blank" rel="noopener">Message via Messenger</a>
-            </div>
-            <div class="field-note">Your inquiry goes directly to i-Setelcom through the live Formspree inbox and email notification flow.</div>
-            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+          <form id="inquiryForm"<div style="margin-top:24px;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,0.1);background:#0f172a;">
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLSfl5NTwkLeCOOBaAdQMt5IJOFq9yF8wIDLH5KAxWQd02e7teQ/viewform?embedded=true"
+    width="100%" 
+    height="900" 
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0"
+    style="border:none;">
+    Loading…
+  </iframe>
+</div>
           </form>
         </div>
       </div>
